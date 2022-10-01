@@ -11,7 +11,7 @@ import {
 import HeaderItems from "./HeaderItems";
 function Header() {
   return (
-    <header className="flex flex-col items-center justify-between m-5 h-auto sm:flex-row">
+    <header className="flex flex-col items-center justify-between m-5 h-auto lg:flex-row">
       <div className="flex flex-grow justify-evenly max-w-2xl">
         <HeaderItems title="HOME" Icon={HomeIcon} />
         <HeaderItems title="TRENDING" Icon={BoltIcon} />
